@@ -16,7 +16,7 @@ JOIN london_data ON
 ```
 
 ## Calculating the Moving Average
-Power BI was used to create the line chart for this project. To calculate the moving average a measure was created for both the global and London moving average, this is a calculated field in Power BI using DAX. A moving average is helpful as it smooths out the temperature to give an overall snapshot of what happened to the temperature through the years without impact from short term fluctuations. The following DAX is how this was achieved for the global moving average, the London moving average used the same method:
+Power BI was used to create the line chart for this project. To calculate the moving average a measure was created for both the global and London moving average, this is a measure in Power BI using DAX. A moving average is helpful as it smooths out the temperature to give an overall snapshot of what happened to the temperature through the years without impact from short term fluctuations. The following DAX is how this was achieved for the global moving average, the London moving average used the same method:
 
 ![image](https://github.com/Hannahllmm/Data-Analyst-Nanodegree/assets/39679731/5c57e1f8-8310-4e4d-99ed-275a03a9c699)
 
